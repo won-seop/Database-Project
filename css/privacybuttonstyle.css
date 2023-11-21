@@ -1,0 +1,57 @@
+.footer__inner {
+    vertical-align: middle;
+    max-width: 1024px;
+    margin: 0 auto ;
+    padding: 16px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.buttons-chat__button{
+  font-size: 1.1rem;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.footer__inner .buttons-chat__button{
+    font-size: 1.1rem;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin: 5px;
+  }
+
+.buttons2 {
+    width: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons-chat {
+    color: #b2b3b5;
+}
+
+.buttons-chat__button:hover {
+    color: #cfd1d3;
+}
+
+.h1head{
+    text-align:center;
+    }

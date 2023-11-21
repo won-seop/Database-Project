@@ -1,0 +1,223 @@
+body{
+  margin:0px;
+}
+
+.left{
+  height: auto;
+  background-color: aqua;
+  overflow: hidden;
+  float: left;
+}
+
+.mid{
+  margin-top: 82px;
+  background: #fff3f2;
+  padding: 30px 0 40px 0;
+}
+
+.mid .table__{
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: rgb(253, 253, 253);
+}
+
+.mid .table__box{
+  width: 720px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+
+.mid .table__img{
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  width: 720px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  background: rgb(223, 105, 105);
+  overflow: hidden;
+}
+
+.mid .table__img .size{
+  width: 720px;
+  height: 600px;
+}
+
+
+
+.mid .profile__info{
+  width: 120px;
+  height: 40px;
+}
+
+.mid .profile__info .profile__submit{
+  position: absolute;
+  width: 120px;
+  text-align: left;
+  display: inline-block;
+  height: 40px;
+  padding: 0px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.mid .profile__info .profile{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.mid .profile__info .nickname{
+  color: #444647;
+  font-size: 15px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.mid .table__content{
+  width: 720px;
+  color: #444647;
+  font-size: 15px;
+  padding-top: 5px;
+  border-top: 2px solid #125497;
+}
+
+.mid .table__content .title__info .title{
+  width: 600px;
+  display:inline-block; 
+  color: #212529;
+  font-size: 40px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+}
+
+.mid .table__content .title__info{
+  width: 720px;
+}
+
+.mid .table__content .title__info .price{
+  width: 120px;
+  color: #EB4B43;
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mid .table__content .content{
+  min-height: 300px;
+  width: 720px;
+  color: #444647;
+  font-size: 15px;
+}
+
+.mid .table__content .submit__info{
+height: 50px;
+}
+
+.mid .table__content .submit__info .submit__{
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
+}
+
+.mid .table__body{
+  padding: 0 40px;
+}
+
+.mid .table__body .block{
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  width: 217px;
+  height: 238px;
+  margin-right: 34px;
+  margin-bottom: 40px;
+}
+
+.mid .table__body .block .submit__Container{
+  position: absolute;
+}
+
+.mid .table__body .block .submit__button{
+  position: absolute;
+  text-align: left;
+  display: inline-block;
+  width: 217px;
+  height: 238px;
+  padding: 0px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+
+.mid .table__body .block:nth-child(3n){
+  margin-right: 0px;
+}
+
+.mid .table__body .block .photo{
+  height: 160px;
+  overflow: hidden;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e7e7e7;
+}
+
+.mid .table__body .block .photo .size{
+  width:217px; height:160px;
+}
+
+.mid .table__body .block .info .title{
+  display: block;
+  font-weight: 600;
+  color: #212529;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mid .table__body .block .info .nickname{
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 6px;
+  color: #868e96;
+}
+
+.mid .table__body .block .info .price{
+  font-weight: 600;
+  color: #EB4B43;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 6px;
+}
+
+.right{
+
+  height: auto;
+  background-color: rgb(0, 68, 204);
+  overflow: hidden;
+  float: left;
+}
+
+.bottem{
+
+  height: auto;
+  background-color: rgb(94, 96, 101);
+  overflow: hidden;
+  float: left;
+}
